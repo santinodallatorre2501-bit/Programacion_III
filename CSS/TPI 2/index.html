@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi landing page</title>
+    
+    <!-- Link al CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- CDN Fuente Lato-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link 
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" 
+        rel="stylesheet">
+
+    <!-- CDN Iconos Google-->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" 
+    rel="stylesheet" />
+</head>
+
+<body>
+    <!--header-->
+    <header>
+        <nav class="contenedor__nav">
+            <h1 class="nav__title">Mi sitio web</h1>
+            <!--Navegacion desktop-->
+            <ul class="nav__list">
+                <li><a class="nav__links" href="#">
+                    <span class="material-symbols-outlined">
+                        home
+                    </span>
+                    Inicio</a></li>
+                <li><a class="nav__links" href="#">
+                    <span class="material-symbols-outlined">
+                        group
+                    </span>
+                    Sobre nosotros</a></li>
+                <li><a class="nav__links" href="#">
+                    <span class="material-symbols-outlined">
+                        home_repair_service
+                    </span>
+                    Servicios</a></li>
+                <li><a class="nav__links" href="#">
+                    <span class="material-symbols-outlined">
+                        mail
+                    </span>
+                    Contacto</a></li>
+            </ul>
+            <!--Navegacion mobile-->
+            <div class="nav__toggleMobile">
+                <span class="material-symbols-outlined">
+                    menu
+                </span>
+            </div>
+        </nav>
+    </header>
+
+    <!--Main-->
+    <main>
+        <section class="main__banner">
+            <h2 class="banner__titulo">Bienvenido a nuestro sitio web</h2>
+            <p class="banner__descripcion">Explora nuestros servicios y descubre como podemos ayudarte</p>
+            <button class="banner__button">Descubrir Más</button>
+        </section>
+
+        <section class="caracteristicas__section">
+            <h2 class="caracteristicas__title">Nuestras características</h2>
+            <div class="caracteristicas__container__articles">
+                <article class="características__card">
+                    <h3>Calidad</h3>
+                    <p>Ofrecemos productos y servicios de la más alta calidad.</p>
+                </article>
+
+                <article class="características__card">
+                    <h3>Innovación</h3>
+                    <p>Nos mantenemos a la vanguardia con las últimas tecnologías.</p>
+                </article>
+
+                <article class="características__card">
+                    <h3>Soporte</h3>
+                    <p>Estamos aquí para ayudarte en todo momento.</p>
+                </article>
+
+                <article class="características__card">
+                    <h3>Sostenibilidad</h3>
+                    <p>Comprometidos con prácticas que protegen el medio ambiente.</p>
+                </article>
+
+                <article class="características__card">
+                    <h3>Confianza</h3>
+                    <p>Construimos relaciones basadas en la transparencia y la confianza.</p>
+                </article>
+
+                <article class="características__card">
+                    <h3>Personalización</h3>
+                    <p>Ofrecemos soluciones adaptadas a las necesidades específicas de cada cliente.</p>
+                </article>
+
+            </div>
+        </section>
+    </main>
+
+    <!--Footer-->
+    <footer>
+        <p class="footer__description">&copy 2026 Mi sitio web. Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
